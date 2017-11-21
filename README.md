@@ -4,7 +4,7 @@ Quick collection of scripts used to fix various support issues
 
 ## fix_org_access_group_permission
 
-If a user in the admin group is getting a `missing read permission` error when trying to access user information it probably means that the user is missing the `#{ORGNAME}_access_group` read permission on their global ACL.
+If a user in the admin group is getting a `missing read permission` error when trying to access user information via `knife user show USERNAME` it probably means that the user is missing the `#{ORGNAME}_access_group` read permission on their global ACL.
 
 You can check this using a command like this from the chef-server
 
