@@ -1,7 +1,8 @@
 #!/opt/opscode/embedded/bin/ruby
 # Usage: ./DANGER_add_read_org_access_group_permission.rb ORGNAME USERNAME
 # Description: This script will manually add the correct db entries for
-#              the given org and user to allow read access to members of the ORGNAME_read_access_group
+#              the given org and user to allow read access to members of the
+#              ORGNAME_read_access_group
 # Author: Will Fisher <will@chef.io>
 
 require 'sequel'
